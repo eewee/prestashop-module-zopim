@@ -23,17 +23,17 @@
 *}
 
 {if isset($validateForm) && $validateForm == true}
-	<div class="alert alert-success">{l s='Save successfully completed true' mod='eeweecrisp'}</div>
+	<div class="alert alert-success">{l s='Save successfully completed true' mod='eeweezopim'}</div>
 {/if}
 {if isset($validateForm) && $validateForm == false}
-	<div class="alert alert-danger">{l s='Key is empty' mod='eeweecrisp'}</div>
+	<div class="alert alert-danger">{l s='Key is empty' mod='eeweezopim'}</div>
 {/if}
 
 <div class="panel">
-	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='eeweecrisp'}</h3>
+	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='eeweezopim'}</h3>
 	<p>
-		{l s='After creating your account you will get a Crisp script (see key Crisp below)' mod='eeweecrisp'}.<br><br>
-		<img src="{$module_dir|escape:'htmlall':'UTF-8'}views/img/eewee-01.jpg" alt="{l s='Crisp key' mod='eeweecrisp'}"><br><br>
-		{l s='NB: You can configure the design Crisp directly to your account Crisp' mod='eeweecrisp'}.
+		{l s='After creating your account you will get a Zopim script (see key Zopim below)' mod='eeweezopim'}.<br><br>
+		<img src="{$module_dir|escape:'htmlall':'UTF-8'}views/img/eewee-01.jpg" alt="{l s='Zopim key' mod='eeweezopim'}"><br><br>
+		{l s='NB: You can configure the design Zopim directly to your account Zopim' mod='eeweezopim'}.
 	</p>
 </div>
